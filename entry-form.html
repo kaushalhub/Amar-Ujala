@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Ujala Aatma Nirbhar Bhaatrat Competition</title>
+
+    <!-- CSS Bs -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS-->
+    <link rel='stylesheet' media='screen and (min-width: 300px) and (max-width: 1024px)' href='css/mob.css' />
+    <link rel='stylesheet' media='screen and (min-width: 1025px)' href='css/main.css' />
+
+    <!-- JS Bs -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="Assets/Images/Logo.png" alt="" class="toplogo"></a>
+    </header>
+    <div class="container-fluid">
+        <div class="row mobhdrtop">
+            <div class="col-lg-12 col-xl-6 mobhdr">
+                <img src="Assets/Images/leftimg.png" alt="" class="desktop lftimg">
+                <img src="Assets/Images/mobimg.png" alt="" class="mobile topimg">
+            </div>
+            <div class="col-lg-12 col-xl-6 container-fluid rghtcol">
+                <a href="index.html">
+                    <p class="homemenu mx-auto d-block">Home</p>
+                </a>
+                <div class="container entryform">
+                    <h4 class="text-white">एक बार फिर</h4>
+                    <h2 class="text-white">चलो गाँधी के आदर्शों की ओर</h2>
+                    <form action="#" method="get">
+                        <div class="info">
+                            <div class="eventcat">
+                                <div class="eventlbl">
+                                    <label for="events" class="eventlabel">Choose Your Event</label>
+                                </div>
+                                <select id="events" name="events">
+                                    <option value="volvo">Fancy Dress Competition</option>
+                                    <option value="saab">Mega Drawing Competition</option>
+                                    <option value="fiat">Slogan Writing</option>
+                                    <option value="audi">Kavi Sammelan</option>
+                                </select>
+                            </div>
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" required>
+                            <input type="text" name="Email ID" id="email" placeholder="Email ID" required>
+                            <input type="text" name="Phone Number" id="phone" placeholder="Phone Number" required>
+                            <select id="state" name="state"></select>
+                            <select name="district" id="district"></select>
+                            <input type="text" name="Address" id="address" placeholder="Full Address" required>
+                            <div class="eventcat">
+                                <select id="gender" name="Gender" required>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                            <div class="uploadbtn">
+                                <label for="">Upload Content</label>
+                                <input type="file" name="fileUpload" id="fileUpload">
+                                <div class="conditiontxt">
+                                    <p class="smallfont">*Max size 15MB (png, jpg, jpeg Only)</p>
+                                </div>
+                            </div>
+                            <div class="checkboxitem">
+                                <input type="checkbox" value="1" required="required" checked="" id="checkbox">
+                                <label>
+                                     I abide by all Rules and Regulations of the Contest.</label>
+                            </div>
+                            <input type="submit" data-toggle="modal" data-target="#exampleModal"></input>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="container entryformotp">
+                    <form action="index.html" method="get">
+                        <div class="info OTP">
+                            <label for="">Please Enter the OTP sent to the Mobile Number: xxxxxxxxxx</label>
+                            <input type="text" name="OTP" id="otp" placeholder="OTP" required>
+                            <button type="submit" id="submit">Confirm</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script language="javascript">
+        populateStates("state", "district"); // first parameter is id of state drop-down and second parameter is id of state drop-down
+        populateStates("state2");
+        populateStates("state2");
+    </script>
+</body>
+
+</html>
