@@ -66,9 +66,7 @@ header {
     margin-top: 5%;
 }
 
-.desktop {
-    display: none;
-}
+
 
 .toppc {
     text-align: center;
@@ -85,7 +83,7 @@ header {
 
 .entryform {
     width: 70%;
-    background-color: #525575;
+    background-color: #5255753D;
     padding: 3% 10%;
     border-radius: 20px;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
@@ -94,6 +92,19 @@ header {
     overflow: scroll;
     height: 630px;
 }
+
+.entryform1 {
+    width: 70%;
+    background-color: white;
+    padding: 3% 10%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 20%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    height: 110px;
+}
+
 
 .entryform h2 {
     margin-bottom: 7%;
@@ -128,7 +139,7 @@ input[type="text"] {
     outline: none;
     border-radius: 20px;
     background: transparent;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
@@ -139,12 +150,12 @@ input[type="text"] {
 }
 
 input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 #address {
     height: 150px;
-    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid rgba(255, 255, 255, 0.7);
 }
 
 select {
@@ -168,18 +179,18 @@ select {
 }
 
 .conditiontxt {
-    color: #ff9696;
+    color: #f00;
 }
 
 .uploadbtn label {
     margin-right: 10%;
-    color: #fff;
+    color: black;
 }
 
 #fileUpload {
     border: none !important;
     border-radius: 5px;
-    color: #fff;
+    color: black;
 }
 
 .file-name li {
@@ -207,7 +218,7 @@ select {
 }
 
 .checkboxitem label {
-    color: #fff;
+    color: black;
 }
 
 #checkbox {
@@ -240,7 +251,7 @@ select {
 .lftimg {
     height: 100vh;
     position: absolute;
-    left: -2px;
+    left: -5px;
 }
 
 .toplogo {}
@@ -278,14 +289,26 @@ select {
     margin-left: 0px !important;
 }
 
-.abtimgouter {
-    width: 100%;
+.abtimg {
+    width: 230px;
+    padding: 0.5%;
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: 550;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    animation-name: abtimg;
+    animation-duration: 1s;
 }
 
-.abtimg {
-    width: auto;
-    height: 40px;
-}
+@keyframes abtimg{
+    from {transform: translatey(-35px); opacity:0.6}
+    to {}
+  }
+
+
 
 .abtimga {
     margin-left: 80%;
@@ -293,12 +316,27 @@ select {
 
 .draw {
     padding-left: 5%;
-    margin-top: 3%;
+    width: 100%;
+    animation-name: draw;
+    animation-duration: 1s;
+}
+
+@keyframes draw{
+  from {transform: translateX(-20px); opacity:0.6}
+  to {}
 }
 
 .fancy {
     padding-top: 10%;
     padding-left: 5%;
+    width: 100%;
+    animation-name: fancy;
+    animation-duration: 1s;
+}
+
+@keyframes fancy{
+  from {transform: translateX(-35px); opacity:0.6}
+  to {}
 }
 
 .dvdr {
@@ -307,11 +345,27 @@ select {
 
 .slogan {
     margin-left: -15%;
+    width: 100%;
+    animation-name: slogan;
+    animation-duration: 1s;
+}
+
+@keyframes slogan{
+  from {transform: translateX(20px); opacity:0.6}
+  to {}
 }
 
 .kavi {
     margin-left: -15%;
     padding-top: 10%;
+    width: 100%;
+    animation-name: kavi;
+    animation-duration: 1s;
+}
+
+@keyframes kavi{
+  from {transform: translateX(35px); opacity:0.6}
+  to {}
 }
 
 .lastdt {

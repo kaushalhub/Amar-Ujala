@@ -97,13 +97,26 @@
     
     .entryform {
         width: 75%;
-        background-color: #525575;
+        background-color: #5255753D;
         padding: 5% 10%;
         border-radius: 20px;
         box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
         margin-top: 5%;
         margin-bottom: 5%;
     }
+
+
+    .entryform1 {
+        width: 75%;
+        background-color: white;
+        padding: 5% 10%;
+        border-radius: 20px;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+
     
     .entryform h2 {
         margin-bottom: 7%;
@@ -138,7 +151,7 @@
         outline: none;
         border-radius: 20px;
         background: transparent;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.7);
         font-weight: 400;
         font-family: 'Open Sans', sans-serif;
         font-size: 1rem;
@@ -149,12 +162,12 @@
     }
     
     input::placeholder {
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(0, 0, 0, 0.7);
     }
     
     #address {
         height: 100px;
-        border-top: 2px solid rgba(255, 255, 255, 0.3);
+        border-top: 2px solid rgba(255, 255, 255, 0.7);
     }
     
     select {
@@ -178,18 +191,18 @@
     }
     
     .conditiontxt {
-        color: #ff9696;
+        color: #f00;
     }
     
     .uploadbtn label {
         margin-right: 10%;
-        color: #fff;
+        color: black;
     }
     
     #fileUpload {
         border: none !important;
         border-radius: 5px;
-        color: #fff;
+        color: black;
     }
     
     .file-name li {
@@ -217,7 +230,7 @@
     }
     
     .checkboxitem label {
-        color: #fff;
+        color: black;
     }
     
     #checkbox {
@@ -277,7 +290,22 @@
     
     .abtimg {
         width: 75%;
-    }
+        padding: 0.5%;
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: 550;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    animation-name: abtimg;
+    animation-duration: 1s;
+}
+
+@keyframes abtimg{
+  from {transform: translatey(-35px); opacity:0.6}
+  to {}
+}
     
     .abtimgouter {
         width: 100%;
@@ -285,30 +313,58 @@
     
     .draw {
         width: 75%;
+        animation-name: fancy;
+    animation-duration: 1s;
     }
+
+    @keyframes draw{
+  from {transform: translateX(-20px); opacity:0.6}
+  to {}
+}
     
     .fancy {
         padding-top: 10%;
         width: 75%;
+        animation-name: fancy;
+    animation-duration: 1s;
     }
+
+    @keyframes fancy{
+  from {transform: translateX(-35px); opacity:0.6}
+  to {}
+}
     
     .dvdr {
-        transform: rotate(90deg);
-        /* height: 300px; */
-        width: 5px;
-        margin-top: -11%;
-        margin-bottom: -8%;
+        width: 70%;
+        margin-top: 8%;
+        margin-bottom: 8%;
     }
     
     .slogan {
         /* margin-top: -25%; */
         width: 75%;
+        animation-name: slogan;
+    animation-duration: 1s;
     }
+
+    @keyframes slogan{
+        from {transform: translateX(20px); opacity:0.6}
+        to {}
+      }
+      
     
-    .kavi {
+      .kavi {
         padding-top: 4%;
         width: 75%;
+        animation-name: kavi;
+    animation-duration: 1s;
     }
+
+
+    @keyframes kavi{
+        from {transform: translateX(35px); opacity:0.6}
+        to {}
+      }
     
     .lastdt {
         width: 80vw;
