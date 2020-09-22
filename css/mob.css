@@ -1,480 +1,481 @@
-    .container-fluid {
-        padding: 0px !important;
-    }
-    
-    h1 {
-        font-size: 3rem;
-    }
-    
-    h2 {
-        font-size: 2rem;
-    }
-    
-    h3 {
-        font-size: 1.5rem;
-    }
-    
-    h4 {
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    
-    .smallfont {
-        font-size: 0.75rem;
-    }
-    
-    body {
-        background-color: #f4fbfe;
-    }
-    
-    .nopad {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    
-    .nomar {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    
-    body {
-        background-image: url('..//Assets/Images/ptnBG.png');
-        background-position: center;
-        background-size: cover;
-        height: fit-content;
-        width: 100%;
-        background-repeat: no-repeat;
-        overflow-y: visible;
-        padding-bottom: 5%;
-    }
-    
-    header {
-        text-align: center;
-        position: absolute;
-        top: 1%;
-        right: 28%;
-        z-index: 1;
-    }
-    
-    .toplogo {
-        height: 40px;
-    }
-    
-    .khadilogo {
-        width: 120px;
-        position: absolute;
-        top: 2%;
-        left: 8%;
-    }
-    
-    .aulogo {
-        width: 200px;
-        position: absolute;
-        top: 2%;
-        right: 8%;
-    }
-    
-    .main-body {
-        margin-top: 5%;
-    }
-    
-    .desktop {
-        display: none;
-    }
-    
-    .toppc {
-        text-align: center;
-    }
-    
-    .top-col {
-        margin-bottom: 5%;
-    }
-    
-    .formtopimg {
-        width: 70%;
-        margin-bottom: 5%;
-    }
-    
-    .entryform {
-        width: 75%;
-        background-color: #5255753D;
-        padding: 5% 10%;
-        border-radius: 20px;
-        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
+.container-fluid {
+    padding: 0px !important;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.smallfont {
+    font-size: 0.75rem;
+}
+
+body {
+    background-color: #f4fbfe;
+}
+
+.nopad {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.nomar {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+body {
+    background-image: url('..//Assets/Images/ptnBG.png');
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow-y: visible;
+    padding-bottom: 5%;
+}
+
+header {
+    text-align: center;
+    position: absolute;
+    top: 1%;
+    right: 33%;
+    z-index: 1;
+}
+
+.toplogo {
+    height: 40px;
+}
+
+.khadilogo {
+    width: 120px;
+    position: absolute;
+    top: 2%;
+    left: 8%;
+}
+
+.aulogo {
+    width: 200px;
+    position: absolute;
+    top: 2%;
+    right: 8%;
+}
+
+.main-body {
+    margin-top: 5%;
+}
+
+.desktop {
+    display: none;
+}
+
+.toppc {
+    text-align: center;
+}
+
+.top-col {
+    margin-bottom: 5%;
+}
+
+.formtopimg {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.entryform {
+    width: 75%;
+    background-color: #5255753D;
+    padding: 5% 10%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 
-    .entryform1 {
-        width: 75%;
-        background-color: white;
-        padding: 5% 10%;
-        border-radius: 20px;
-        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
+.entryform1 {
+    width: 75%;
+    background-color: white;
+    padding: 5% 10%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 
-    
-    .entryform h2 {
-        margin-bottom: 7%;
-    }
-    
-    .entryformotp {
-        width: 65%;
-        background-color: #525575;
-        padding: 5% 10%;
-        border-radius: 20px;
-        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    
-    .eventcat {
-        text-align: left;
-    }
-    
-    .eventlbl {
-        background-color: #76c06d;
-        width: fit-content;
-        padding: 1% 5%;
-        border-radius: 5px;
-        margin-bottom: -8%;
-    }
-    
-    input[type="text"] {
-        width: 100%;
-        border: none;
-        appearance: unset;
-        outline: none;
-        border-radius: 20px;
-        background: transparent;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.7);
-        font-weight: 400;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1rem;
-        color: #fff;
-        margin: 5%;
-        height: 50%;
-        padding: 1% 10%;
-    }
-    
-    input::placeholder {
-        color: rgba(0, 0, 0, 0.7);
-    }
-    
-    #address {
-        height: 100px;
-        border-top: 2px solid rgba(255, 255, 255, 0.7);
-    }
-    
-    select {
-        background: #fff url(../Assets/Images/form-arrow.png) no-repeat scroll;
-        background-position: right;
-        z-index: 1;
-        cursor: pointer;
-        width: 100%;
-        color: #366915;
-        position: relative;
-        font-weight: 400;
-        font-size: 1rem;
-        margin: 5%;
-        height: 40px;
-        padding: 1% 5%;
-        border-radius: 20px;
-    }
-    
-    .uploadbtn {
-        margin: 5%;
-    }
-    
-    .conditiontxt {
-        color: #f00;
-    }
-    
-    .uploadbtn label {
-        margin-right: 10%;
-        color: black;
-    }
-    
-    #fileUpload {
-        border: none !important;
-        border-radius: 5px;
-        color: black;
-    }
-    
-    .file-name li {
-        text-align: left;
-    }
-    
-    .closebtn {
-        width: 15px;
-        margin-left: 5%;
-    }
-    
-    #submit {
-        width: 80%;
-        margin-top: 15%;
-        padding: 2%;
-        background-color: #76c06d;
-        border: none;
-        border-radius: 20px;
-    }
-    
-    .checkboxitem {
-        display: inline-flex;
-        text-align: left;
-        margin-top: 5%;
-    }
-    
-    .checkboxitem label {
-        color: black;
-    }
-    
-    #checkbox {
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        color: #fff;
-        margin-right: 5%;
-        margin-top: 3%;
-        background: transparent;
-    }
-    
-    .OTP {
-        color: #fff;
-    }
-    
-    #otp {
-        width: 80%;
-    }
-    /* Index page CSS */
-    
-    .desktop {
-        display: none;
-    }
-    
-    .mobile {
-        display: block;
-    }
-    
-    .mobhdrtop {
-        padding: 0px !important;
-        margin: 0px !important;
-    }
-    
-    .mobhdr {
-        padding: 0px !important;
-        margin: 0px !important;
-    }
-    
-    .topimg {
-        width: 100%;
-        max-width: 100%;
-    }
-    
-    .gandhitext {
-        width: 80%;
-    }
-    
-    .altrow {
-        margin-top: 15%;
-        max-width: 100%;
-        margin-left: 0px !important;
-    }
-    
-    .rowinner {
-        max-width: 100%;
-        margin-left: 0px !important;
-    }
-    
-    .abtimg {
-        width: 75%;
-        padding: 0.5%;
-    background-color: #fff;
-    font-size: 24px;
-    font-weight: 550;
+
+.entryform h2 {
+    margin-bottom: 7%;
+}
+
+.entryformotp {
+    width: 65%;
+    background-color: #525575;
+    padding: 5% 10%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.eventcat {
+    text-align: left;
+}
+
+.eventlbl {
+    background-color: #76c06d;
+    width: fit-content;
+    padding: 1% 5%;
+    border-radius: 5px;
+    margin-bottom: -8%;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    appearance: unset;
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin: 5%;
+    height: 50%;
+    padding: 1% 10%;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#address {
+    height: 100px;
+    border-top: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+select {
+    background: #fff url(../Assets/Images/form-arrow.png) no-repeat scroll;
+    background-position: right;
+    z-index: 1;
+    cursor: pointer;
+    width: 100%;
+    color: #366915;
+    position: relative;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 5%;
+    height: 40px;
+    padding: 1% 5%;
+    border-radius: 20px;
+}
+
+.uploadbtn {
+    margin: 5%;
+}
+
+.conditiontxt {
+    color: #f00;
+}
+
+.uploadbtn label {
+    margin-right: 10%;
+    color: black;
+}
+
+#fileUpload {
+    border: none !important;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+}
+
+.file-name li {
+    text-align: left;
+}
+
+.closebtn {
+    width: 15px;
+    margin-left: 5%;
+}
+
+#submit {
+    width: 80%;
+    margin-top: 15%;
+    padding: 2%;
+    background-color: #76c06d;
     border: none;
     border-radius: 20px;
-    text-align: center;
-    color: white;
-    animation-name: abtimg;
-    animation-duration: 1s;
+}
+
+.checkboxitem {
+    display: inline-flex;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.checkboxitem label {
+    color: black;
+}
+
+#checkbox {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 3%;
+    background: transparent;
+}
+
+.OTP {
+    color: #fff;
+}
+
+#otp {
+    width: 80%;
+}
+/* Index page CSS */
+
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+.mobhdrtop {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.mobhdr {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.topimg {
+    width: 100%;
+    max-width: 100%;
+}
+
+.gandhitext {
+    width: 80%;
+}
+
+.altrow {
+    margin-top: 15%;
+    max-width: 100%;
+    margin-left: 0px !important;
+}
+
+.rowinner {
+    max-width: 100%;
+    margin-left: 0px !important;
+}
+
+.abtimg {
+    width: 75%;
+    padding: 0.5%;
+background-color: #fff;
+font-size: 24px;
+font-weight: 550;
+border: none;
+border-radius: 20px;
+text-align: center;
+color: white;
+animation-name: abtimg;
+animation-duration: 1s;
 }
 
 @keyframes abtimg{
-  from {transform: translatey(-35px); opacity:0.6}
-  to {}
+from {transform: translatey(-35px); opacity:0.6}
+to {}
 }
-    
-    .abtimgouter {
-        width: 100%;
-    }
-    
-    .draw {
-        width: 75%;
-        animation-name: fancy;
-    animation-duration: 1s;
-    }
 
-    @keyframes draw{
-  from {transform: translateX(-20px); opacity:0.6}
-  to {}
+.abtimgouter {
+    width: 100%;
 }
-    
-    .fancy {
-        padding-top: 10%;
-        width: 75%;
-        animation-name: fancy;
-    animation-duration: 1s;
-    }
 
-    @keyframes fancy{
-  from {transform: translateX(-35px); opacity:0.6}
-  to {}
+.draw {
+    width: 75%;
+    animation-name: fancy;
+animation-duration: 1s;
 }
-    
-    .dvdr {
-        width: 70%;
-        margin-top: 8%;
-        margin-bottom: 8%;
-    }
-    
-    .slogan {
-        /* margin-top: -25%; */
-        width: 75%;
-        animation-name: slogan;
-    animation-duration: 1s;
-    }
 
-    @keyframes slogan{
-        from {transform: translateX(20px); opacity:0.6}
-        to {}
-      }
-      
-    
-      .kavi {
-        padding-top: 4%;
-        width: 75%;
-        animation-name: kavi;
-    animation-duration: 1s;
-    }
+@keyframes draw{
+from {transform: translateX(-20px); opacity:0.6}
+to {}
+}
+
+.fancy {
+    padding-top: 10%;
+    width: 75%;
+    animation-name: fancy;
+animation-duration: 1s;
+}
+
+@keyframes fancy{
+from {transform: translateX(-35px); opacity:0.6}
+to {}
+}
+
+.dvdr {
+    width: 70%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.slogan {
+    /* margin-top: -25%; */
+    width: 75%;
+    animation-name: slogan;
+animation-duration: 1s;
+}
+
+@keyframes slogan{
+    from {transform: translateX(20px); opacity:0.6}
+    to {}
+  }
+  
+
+  .kavi {
+    padding-top: 4%;
+    width: 75%;
+    animation-name: kavi;
+animation-duration: 1s;
+}
 
 
-    @keyframes kavi{
-        from {transform: translateX(35px); opacity:0.6}
-        to {}
-      }
-    
-    .lastdt {
-        width: 80vw;
-    }
-    
-    .winner {
-        width: 85%;
-        padding-top: 10%;
-    }
-    /* Event and about pages CSS */
-    
-    .homemenu {
-        width: 40%;
-        margin-top: 10%;
-        padding: 1%;
-        background-color: #541112;
-        border: none;
-        border-radius: 20px;
-        color: white;
-        text-align: center;
-    }
-    
-    .boxedct {
-        display: block;
-        border: 3px solid #541112;
-        height: fit-content;
-        padding: 6%;
-        margin-left: 5%;
-        margin-right: 5%;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.4);
-        text-align: justify;
-    }
-    
-    .boxedct h2 {
-        margin-bottom: 5%;
-        margin-top: 2%;
-        font-weight: bold;
-    }
-    /* Drawing comp CSS */
-    
-    .boxedctev {
-        display: block;
-        border: 3px solid #541112;
-        height: fit-content;
-        padding: 60px 6%;
-        margin-left: 5%;
-        margin-right: 5%;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.4);
-        text-align: justify;
-    }
-    
-    #prtcpt {
-        width: 40%;
-        margin-top: 15%;
-        padding: 2%;
-        background-color: #76c06d;
-        border: none;
-        border-radius: 20px;
-    }
-    
-    .prtcptouter {
-        width: 100%;
-        height: fit-content;
-    }
-    
-    .cmptmgouter {
-        width: 100%;
-        height: fit-content;
-        z-index: 1;
-        margin-bottom: -85px;
-    }
-    
-    .drtpimg {
-        width: 70%;
-    }
-    
-    .drtpimgk {
-        width: 65%;
-    }
-    /* Kavi sammelan css */
-    
-    .smflw {
-        display: inline-flex;
-        margin-top: 10%;
-    }
-    
-    .fbfollow,
-    .ytsubs {
-        width: 100%;
-    }
-    /* 
-.wizard-v6-content {
-    width: 910px;
-    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    -o-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    -ms-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+@keyframes kavi{
+    from {transform: translateX(35px); opacity:0.6}
+    to {}
+  }
+
+.lastdt {
+    width: 80vw;
+}
+
+.winner {
+    width: 85%;
+    padding-top: 10%;
+}
+/* Event and about pages CSS */
+
+.homemenu {
+    width: 40%;
+    margin-top: 10%;
+    padding: 1%;
+    background-color: #541112;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.boxedct {
+    display: block;
+    border: 3px solid #541112;
+    height: fit-content;
+    padding: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 10px;
-    -o-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    margin: 0 0 90px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    position: relative;
-    display: flex;
-    display: -webkit-flex;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: justify;
+}
+
+.boxedct h2 {
+    margin-bottom: 5%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+/* Drawing comp CSS */
+
+.boxedctev {
+    display: block;
+    border: 3px solid #541112;
+    height: fit-content;
+    padding: 60px 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: justify;
+}
+
+#prtcpt {
+    width: 40%;
+    margin-top: 15%;
+    padding: 2%;
+    background-color: #76c06d;
+    border: none;
+    border-radius: 20px;
+}
+
+.prtcptouter {
+    width: 100%;
+    height: fit-content;
+}
+
+.cmptmgouter {
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+    margin-bottom: -85px;
+}
+
+.drtpimg {
+    width: 70%;
+}
+
+.drtpimgk {
+    width: 65%;
+}
+/* Kavi sammelan css */
+
+.smflw {
+    display: inline-flex;
+    margin-top: 10%;
+}
+
+.fbfollow,
+.ytsubs {
+    width: 100%;
+}
+/* 
+.wizard-v6-content {
+width: 910px;
+box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+-o-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+-ms-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+-webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+margin: 0 0 90px;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 400;
+position: relative;
+display: flex;
+display: -webkit-flex;
 } */
